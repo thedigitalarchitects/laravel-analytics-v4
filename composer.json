@@ -4,6 +4,7 @@
     "keywords": [
         "tda",
         "laravel",
+        "ga4",
         "laravel-analytics-v4"
     ],
     "homepage": "https://github.com/davileichs/laravel-analytics-v4",
@@ -22,7 +23,7 @@
     ],
     "require": {
         "php": "^8.1",
-        "google/analytics-data": "^0.8.6",
+        "google/analytics-data": "^0.8.6|^0.9",
         "illuminate/contracts": "^8.0",
         "spatie/laravel-package-tools": "^1.9.2"
     },
@@ -73,6 +74,6 @@
             }
         }
     },
-    "minimum-stability": "dev",
+    "minimum-stability": "0.9",
     "prefer-stable": true
 }
